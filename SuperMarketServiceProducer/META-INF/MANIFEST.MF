@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: SuperMarketServiceProducer
+Bundle-SymbolicName: SuperMarketServiceProducer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.saassignment.osgi.supermarketserviceproducer.Activator
+Bundle-Vendor: Hasindu_Sewvandi_Husmitha_ServiceProviders
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: SuperMarketServiceProducer
+Import-Package: org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: com.saassignment.osgi.cashierservice,
+ com.saassignment.osgi.datastore,
+ com.saassignment.osgi.managerservice,
+ com.saassignment.osgi.model

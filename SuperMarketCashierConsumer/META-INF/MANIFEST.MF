@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: SuperMarketCashierConsumer
+Bundle-SymbolicName: SuperMarketCashierConsumer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.saassignment.osgi.supermarketcashierconsumer.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: SuperMarketCashierConsumer
+Import-Package: com.saassignment.osgi.cashierservice,
+ com.saassignment.osgi.datastore,
+ com.saassignment.osgi.model,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
