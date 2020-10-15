@@ -1,5 +1,7 @@
 # 🏙 Super Market Management System - OSGI Framework
 
+## Languages
+
 ![Java](https://img.shields.io/badge/Language-Java-red)
 
 ## Intoduction
